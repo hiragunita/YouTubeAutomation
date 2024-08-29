@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T17:16:48Z" name="Test Suite for Buildout" finished-at="2024-08-29T17:18:21Z" duration-ms="93475">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T17:16:48Z" name="Test Cases for Buildout" finished-at="2024-08-29T17:18:21Z" duration-ms="93475">
+      <class name="demo.TestCases">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:46:48Z" name="startBrowser" finished-at="2024-08-29T22:46:50Z" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:46:50Z" name="openUrl" finished-at="2024-08-29T22:46:55Z" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase01()[pri:1, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:46:55Z" name="testCase01" description="Assert you are on the correct URL. Click on &#039;About&#039; at the bottom of the sidebar, and print the message on the screen." finished-at="2024-08-29T22:46:57Z" duration-ms="1956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:46:57Z" name="openUrl" finished-at="2024-08-29T22:46:59Z" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase02()[pri:2, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:46:59Z" name="testCase02" description="Apply a Soft Assert on whether the movie is marked “A” for Mature or not. Apply a Soft assert on the movie category to check if it exists ex: &quot;Comedy&quot;, &quot;Animation&quot;, &quot;Drama&quot;." finished-at="2024-08-29T22:47:29Z" duration-ms="30630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:29Z" name="openUrl" finished-at="2024-08-29T22:47:32Z" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase03()[pri:3, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:32Z" name="testCase03" description="Print the name of the playlist. Soft Assert on whether the number of tracks listed is less than or equal to 50." finished-at="2024-08-29T22:47:36Z" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:36Z" name="openUrl" finished-at="2024-08-29T22:47:38Z" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase04()[pri:4, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:38Z" name="testCase04" description="Go to the &#039;News&#039; tab and print the title and body of the 1st 3 “Latest News Posts” along with the sum of the number of likes on all 3 of them. No likes given means 0." finished-at="2024-08-29T22:47:46Z" duration-ms="7914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:46Z" name="openUrl" finished-at="2024-08-29T22:47:48Z" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:48Z" name="testCase05" data-provider="excelData" finished-at="2024-08-29T22:47:57Z" duration-ms="8717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Movies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:47:57Z" name="openUrl" finished-at="2024-08-29T22:48:00Z" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:48:00Z" name="testCase05" data-provider="excelData" finished-at="2024-08-29T22:48:08Z" duration-ms="7811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:48:08Z" name="openUrl" finished-at="2024-08-29T22:48:10Z" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testCase05(java.lang.String)[pri:5, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:48:10Z" name="testCase05" data-provider="excelData" finished-at="2024-08-29T22:48:21Z" duration-ms="11001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@460ebd80]" started-at="2024-08-29T22:48:21Z" name="endTest" finished-at="2024-08-29T22:48:21Z" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demo.TestCases -->
+    </test> <!-- Test Cases for Buildout -->
+  </suite> <!-- Test Suite for Buildout -->
+</testng-results>
